@@ -1,0 +1,6 @@
+mac:
+(myvenv) ~/djangogirls$ python myvenv\Scripts\django-admin.py startproject mysite .
+
+
+windows:
+(myvenv) ~/djangogirls$ django-admin.py startproject mysite .

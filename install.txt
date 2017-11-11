@@ -1,6 +1,17 @@
 mac:
-(myvenv) ~/djangogirls$ python myvenv\Scripts\django-admin.py startproject mysite .
+    (myvenv) ~/djangogirls$ python myvenv\Scripts\django-admin.py startproject mysite .
 
 
 windows:
-(myvenv) ~/djangogirls$ django-admin.py startproject mysite .
+    (myvenv) ~/djangogirls$ django-admin.py startproject mysite .
+
+
+
+
+generate requirement: 
+    pip freeze > requirements.txt
+
+superUser: 
+    mike840609
+    mike840609@gmail.com
+    r06725054

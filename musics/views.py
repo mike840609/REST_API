@@ -14,3 +14,8 @@ class MusicViewSet(viewsets.ModelViewSet):
 
     # DRF Authentications
     permission_classes = (IsAuthenticated,)
+
+    # Allowed content type 
+    # local setting (just in this class)
+    parser_classes = (JSONParser,)
+

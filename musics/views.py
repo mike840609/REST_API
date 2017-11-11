@@ -29,7 +29,8 @@ class MusicViewSet(viewsets.ModelViewSet):
 
 
      # /api/music/{pk}/detail/
-    @detail_route(methods=['get'], url_path='detail_self')
+    # @detail_route(methods=['get'], url_path='detail_self')
+    @detail_route(methods=['get'])
     def detail(self, request, pk=None):
         music = get_object_or_404(Music, pk=pk)
         result = {
